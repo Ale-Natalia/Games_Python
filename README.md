@@ -13,6 +13,29 @@
       - "exit"
     - the hit spots are represented as "o", the spots where a battleship is placed as "+", while the empty ones are shown as "."
     
+* Hammurabi
+  - the ancient predecessor of "Civilisation" game with a console-based interface
+  - turn-based strategy game
+  - 5 turns(years)
+  - Rules:
+    - each year, the player receives a report of the situation:
+      - the number of people who starved (given by the number of people that were not fed - 20 grains/person necessary)
+      - the number of people who came to the city (random number between 0-10 if no one starved)
+      - the number of acres of land owned by the city
+      - the harvest rate (random between 1-6 grains per acre; each person can harvest at most 10 acres every year)
+      - the number of units eaten by rats (20% chance of rat infestation each year -> at most 10% grain is eaten)
+      - land price (random between 15-25 grain/acre)
+      - grain stocks
+    - each year, the player types the following requested numbers:
+      - the number of acres to buy/sell (+/-)
+      - the number of units to feed the population
+      - the number of acres to plant
+    - the game ends when:
+      - at least half of the population dies during a year - the game is lost
+      - 5 rounds have been played:
+        - the player has over 100 population and over 1000 acres - the game is won
+        - otherwise, the game is lost
+        
 * Hangman
   - a console-based version of the Hangman game
   - the computer randomly selects a sentence from the file and the human player attempts to guess it
