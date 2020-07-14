@@ -1,4 +1,4 @@
-# Games
+# Classic Games in Python
 
 * Battleship
   - the classic battleship game with a console-based interface
