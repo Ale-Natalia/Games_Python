@@ -55,7 +55,7 @@
   - can be played human vs. human/ human vs. computer/ computer vs. computer
   - menu-based controls
   - Rules:
-    - 1: Settings - choose the board size, the win size and the player types
+    - 1. Settings - choose the board size, the win size and the player types
     - 2. Start game
       - choose coordinates (row and column) to place tile by typing the numbers
       - the game ends when one of the players has completed a contiguous segment of the chosen length in row/column/diagonal or the board is full
